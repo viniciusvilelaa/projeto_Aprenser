@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"');
+
+:root{
+    --color-base: #FED001;
+    --color-gradient: linear-gradient(90deg, var(--color-base), #e1cf2c, #ffe600);
+    --color-second: #003464;
+    --color-title: #071D2E;
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #FAFAFA;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em 1em 3em;
+    background-color: black;
+}
+
+.navbar img{
+    width: 130px;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: var(--color-base);
+    margin: 1em;
+    border: 1px solid var(--color-base);
+    padding: 10px;
+}
+
+.hero-section{
+    padding: 0 2em 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(#FFFFFF 0%, var(--color-base) 100%);
+}
+
+.hero-section img{
+    width: 50%;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+.hero-info p{
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.hero-info a{
+    text-decoration: none;
+    color: black;
+    background-color: var(--color-base);
+    padding: 1em 2em 1em 2em;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.curses-section{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    margin-bottom: 80px;
+
+}
+
+#h2-titles{
+    margin: 0 0 80px 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-title);
+}
+
+.card-container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.card{
+    text-align: left;
+    width: 402px;
+    height: 454px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 1em 0 1em;
+}
+
+.card-infos h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-infos{
+    color: #4d4d4d;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#more-curses-btn{
+    text-decoration: none;
+    color: black;
+    background-color: var(--color-base);
+    padding: 1em 2em 1em 2em;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px
+}
+
+.desc-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-second);
+    gap: 30px;
+}
+
+.desc-section img{
+    width: 40%;
+}
+
+.desc-section{
+    padding: 5em 5em 0 5em;
+    color: white;
+}
+.desc-info{
+    width: 550px;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-direction: column;
+}
+.desc-info h2{
+    font-size: 40px;
+}
+
+.desc-info p{
+    line-height: 150%;
+}
+
+.map-section{
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    width: 1276px;
+    margin-bottom: 25px;
+}
+
+#contact-legend{
+    text-align: right;
+    font: normal 400 15px "Inter", sans-serif;
+}
