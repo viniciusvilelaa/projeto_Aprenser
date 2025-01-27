@@ -184,3 +184,7 @@ iframe{
     color: white;
     font: normal 400 15px "Inter", sans-serif;
 }
+
+.footer-site p{
+    display: inline-block;
+}
